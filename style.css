@@ -1,0 +1,90 @@
+body{
+background-image: url("istockphoto-1083487948-612x612.jpg");
+text-align: center;
+}
+.topnav{
+overflow: hidden;
+background-color: black;
+position: sticky;
+top:0;
+width: 100%
+}
+.topnav a{
+float: left;
+color: cyan;
+font-family: cursive;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover{
+background-color: red;
+color: black;
+}
+.topnav_right{
+float:right;
+}
+.row::after{
+content:"";
+clear: both;
+display: table;
+}
+.image_div{
+float: left;
+width:50%;
+padding: 5px;
+}
+.menu_div{
+float: right;
+font-size: 25px;
+font-family: cursive;
+color:honeydew;
+padding:160px;
+width: 50%;
+}
+#menu_list{
+background-color: crimson;
+color: black;
+width:200px;
+border:none;
+}
+.new_row::after{
+content:"";
+clear: both;
+display: table;
+}
+.block1{
+padding: 5px;
+width: 20%;
+float: left;
+}
+.block2{
+float: left;
+width:80%;
+color:honeydew;
+padding:5px;
+font-size: 25px;
+font-family: cursive;
+}
+#addtoppings{
+width:200px;
+height: 180px;
+border: none;
+background-color: crimson;
+color:black;
+font-size: 20px;
+font-family: cursive;
+}
+.additem{
+font-size: 15px;
+font-family: cursive;
+width:80%;
+height: 50px;
+color:white;
+background: none;
+border: none;
+outline: none;
+line-height:20px;
+
+}

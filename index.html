@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>
+PIZZA
+</title>
+<link rel="stylesheets" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+</script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="main.js"></script>
+</head>
+<body>
+<div class="topnav">
+<a class="active" href="#">
+PIZZERIA
+</a>
+<div class="topnav_right">
+<a href="#viewblock">VIEW MENU</a>
+<a href="#addtoppings">ADD MENU</a>
+</div>
+</div>
+<div class="row" id="viewblock">
+<div class="image_div">
+<img class="img_responsive" src="https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-seafood-vegetable-pizza-gourmet-background-poster-image_214182.jpg">
+
+</div>
+<div class="menu_div">
+<button id="menu_list" onclick="getmenu()">SHOW MENU</button>
+<div id="display_menu"></div>
+</div>
+</div>
+<div class="new_row" id="addtoppings">
+<div class="block1">
+<input id="add_item" placeholder="TYPE HERE TO ADD TOPPINGS">
+<br>
+<button id="addtoppings" onclick="add_item()">RECOMMEND A NEW PIZZA</button>
+</div>
+<div class="block2">
+<div id="display_addedmenu"></div>
+</div>
+</div>
+<div>
+<img class="img responsive" src="https://media.istockphoto.com/vectors/build-your-own-pizza-set-vector-id1077400460?k=6&m=1077400460&s=612x612&w=0&h=-CqgFiDrgewXlAs1h_xdyifI1OxoceeP9xboi1E0kZs=">
+</div>
+</body>
+</html>
